@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://code.alibabatech.com/schema/dubbo
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
+		<!-- 引用dubbo服务 -->
+	<dubbo:application name="sc_manager_web"/>
+	<dubbo:registry protocol="zookeeper" address="192.168.227.132:2181"/>	
+	<dubbo:reference interface="cn.xuank.ItemService" id="itemService" />
+	<dubbo:reference interface="cn.xuank.ItemCatService" id="itemCatService" />
+	
+</beans>
