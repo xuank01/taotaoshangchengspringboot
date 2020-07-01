@@ -40,7 +40,7 @@
         <jackson.version>2.9.5</jackson.version>
         <jsp-api.version>2.0</jsp-api.version>
         <freemarker.version>2.3.23</freemarker.version>
-        <quartz.version>2.2.2</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <activemq-pool.version>5.15.7</activemq-pool.version>
     </properties>
     <dependencyManagement>
