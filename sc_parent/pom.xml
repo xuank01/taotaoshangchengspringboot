@@ -37,7 +37,7 @@
         <pagehelper.version>4.1.6</pagehelper.version>
         <jsqlparser.version>0.9.1</jsqlparser.version>
         <joda-time.version>2.5</joda-time.version>
-        <jackson.version>2.9.5</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <jsp-api.version>2.0</jsp-api.version>
         <freemarker.version>2.3.23</freemarker.version>
         <quartz.version>2.2.2</quartz.version>
